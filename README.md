@@ -21,7 +21,7 @@ gradient
 - CSS
 
 ## Live Demo
-- [Live Demo Link](coming soon)
+- [Live Demo Link](https://raw.githack.com/Ahmed-Benj/smashing-magazine-clone/tree/development)
 
 #### Prerequisites
 - Browser
@@ -29,7 +29,7 @@ gradient
 
 ## Authors
 
-👤 ** Peter Isiko **
+👤 **Peter Isiko**
 
 - Github (https://github.com/petersteph88)
 - Linkedin (https://www.linkedin.com/in/peter-isiko-8040bb1a3/)
