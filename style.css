@@ -1,3 +1,5 @@
+/* CSS reset & preconfig */
+
 html,
 body,
 div,
@@ -96,11 +98,12 @@ html {
   box-sizing: inherit;
 }
 
+/* Header styling */
+
 header{
   display: grid;
   grid-template-columns:15% 60% 25%;
   background-color:rgb(211,58,44);
-  /* height: 116px; */
 }
 
 .logo{
@@ -162,3 +165,15 @@ header{
 .nav-container{
   margin-top: 33px;
 }
+
+/* main-section */
+
+
+.featured-articles-heading{
+  background-color: #fff;
+ text-align: center;
+ font-family: Mija;
+ font-size: 41.4919px;
+ font-weight: 700;
+}
+
