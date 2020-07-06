@@ -98,6 +98,82 @@ html {
 
 header{
   display: grid;
-  grid-template-columns:268.477px 1800.52px 0px 600px;
+  grid-template-columns:15% 60% 25%;
+  background-color:rgb(211,58,44);
   /* height: 116px; */
 }
+
+.logo{
+  width: 193.85px;
+  height: 3.5em;
+}
+
+.nav-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  font-family:Mija;
+  font-feature-settings:"onum";
+  font-size:17.1505px;
+  font-weight:700;
+}
+
+/* #s-circle {
+  position: relative;
+  top: -8px;
+  left: 0;
+  width: 43px;
+  height: 43px;
+  margin-top: 0;
+  border-width: 15px;
+  border: 15px solid #fff;
+  background-color: transparent;
+  border-radius: 50%;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+button span {
+  position: absolute;
+  top: 68px;
+  left: 43px;
+  display: block;
+  width: 45px;
+  height: 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  -webkit-transform: rotateZ(52deg);
+  transform: rotateZ(52deg);
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+button span:before, button span:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-transform: rotateZ(0);
+  transform: rotateZ(0);
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+button {
+  position: relative;
+  display: block;
+  width: 84px;
+  height: 96px;
+  cursor: pointer;
+} */
