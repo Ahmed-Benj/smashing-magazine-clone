@@ -104,7 +104,7 @@ header{
 }
 
 .logo{
-  width: 193.85px;
+  width: 100%;
   height: 3.5em;
 }
 
@@ -125,55 +125,40 @@ header{
   font-weight:700;
 }
 
-/* #s-circle {
-  position: relative;
-  top: -8px;
-  left: 0;
-  width: 43px;
-  height: 43px;
-  margin-top: 0;
-  border-width: 15px;
-  border: 15px solid #fff;
-  background-color: transparent;
-  border-radius: 50%;
-  -webkit-transition: 0.5s ease all;
-  transition: 0.5s ease all;
-}
-
-button span {
-  position: absolute;
-  top: 68px;
-  left: 43px;
+.search-container input{
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(51, 51, 51);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-style: none;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-color: rgb(51, 51, 51);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top-width: 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  cursor: text;
   display: block;
-  width: 45px;
-  height: 15px;
-  background-color: transparent;
-  border-radius: 10px;
-  -webkit-transform: rotateZ(52deg);
-  transform: rotateZ(52deg);
-  -webkit-transition: 0.5s ease all;
-  transition: 0.5s ease all;
+  font-family: Mija;
+  font-feature-settings: "onum";
+  font-size: 19px;
+  font-weight: 700;
+  height: 34.4688px;
+  padding-bottom: 16px;
+  padding-left: 64.6748px;
+  padding-right: 21.3374px;
+  padding-top: 16px;
+  text-align: start;
+  width: 415px;
 }
 
-button span:before, button span:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 45px;
-  height: 15px;
-  background-color: #fff;
-  border-radius: 10px;
-  -webkit-transform: rotateZ(0);
-  transform: rotateZ(0);
-  -webkit-transition: 0.5s ease all;
-  transition: 0.5s ease all;
+.img-container, .search-container{
+  margin-top: 25px;
 }
 
-button {
-  position: relative;
-  display: block;
-  width: 84px;
-  height: 96px;
-  cursor: pointer;
-} */
+.nav-container{
+  margin-top: 33px;
+}
