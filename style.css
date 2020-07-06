@@ -95,3 +95,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+header{
+  display: grid;
+  grid-template-columns:268.477px 1800.52px 0px 600px;
+  /* height: 116px; */
+}
