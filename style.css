@@ -168,12 +168,49 @@ header{
 
 /* main-section */
 
+.featured-articles-container{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+
+}
 
 .featured-articles-heading{
-  background-color: #fff;
+ margin-left: 50%;
+ transform: translateX(-50%);
+ background-color: #fff;
  text-align: center;
  font-family: Mija;
  font-size: 41.4919px;
  font-weight: 700;
 }
 
+.featured-article{
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-article_writer_icon div{
+  width: 85px;
+  float: left;
+}
+
+.featured-article-figure a img{
+  height: 75px;
+  width: 75px;
+}
+
+.featured-article:nth-of-type(3n+1) {
+  background-color: rgb(188,52,40);
+}
+
+.featured-article-title{
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline;
+  font-family: Mija;
+  font-feature-settings: "onum";
+  font-size: 47.5458px;
+  font-weight: 700;
+}
