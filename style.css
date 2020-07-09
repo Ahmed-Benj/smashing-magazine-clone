@@ -260,3 +260,9 @@ header{
   font-weight:700;
   line-height:33.0004px;
 }
+
+.first-section{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
