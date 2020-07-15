@@ -173,7 +173,7 @@ header{
 .featured-articles-container{
   display: flex;
   position: relative;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   height: 960.063px;
 }
 
@@ -183,6 +183,7 @@ header{
  background-color: #fff;
  text-align: center;
  font-family: Mija;
+ position: absolute;
  font-size: 41.4919px;
  font-weight: 700;
 }
@@ -271,5 +272,6 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: 500px;
+  position: absolute;
 }
 
