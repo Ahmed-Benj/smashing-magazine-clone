@@ -332,3 +332,8 @@ line-height:37.8145px;
 padding: 10px;
 margin: 10px;
 }
+
+.ad{
+  height: 1001px;
+  background-image: linear-gradient(rgb(27, 113, 187) 45%, rgb(67, 153, 217) 100%);
+}
