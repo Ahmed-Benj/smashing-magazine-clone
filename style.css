@@ -287,9 +287,48 @@ header{
 }
 
 .first-section{
-  display: flex;
-  flex-wrap: wrap;
-  width: 500px;
-  position: absolute;
+
 }
 
+.first-section-content{
+  display: inline-block;
+  width: 33%;
+  height: 500px;
+}
+
+.first-section-content time{
+  font-family: elena;
+  padding: 10px;
+  margin: 10px;
+}
+
+.first-section-content h2{
+  font-family: Mija;
+  font-size: 30.39px;
+  font-weight: 700;
+  padding: 10px;
+  margin: 10px;
+}
+
+.first-section-content span{
+font-family:Mija;
+font-feature-settings:"onum";
+font-size:17.7032px;
+color:rgb(102, 102, 102);
+padding: 10px;
+margin: 10px;
+}
+
+.first-section-content span a{
+color: rgb(102, 102, 102);
+}
+
+.first-section-content p{
+color:rgb(51, 51, 51);
+font-family:Elena;
+font-feature-settings:"onum";
+font-size:22.6497px;
+line-height:37.8145px;
+padding: 10px;
+margin: 10px;
+}
