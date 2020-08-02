@@ -337,3 +337,74 @@ margin: 10px;
   height: 1001px;
   background-image: linear-gradient(rgb(27, 113, 187) 45%, rgb(67, 153, 217) 100%);
 }
+
+.ad_container{
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+.ad div{
+  padding-top: 50px;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: Elena;
+  font-feature-settings: "onum";
+  text-align: center;
+  width: 100%;
+}
+
+.ad_date{
+  font-size:17.7032px;
+  font-weight:700;
+}
+
+.ad_header h2 a{
+  font-size: 52px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Mija";
+  text-decoration-line: none;
+  text-shadow: rgb(56, 54, 54) 1px 2px 2px;
+}
+
+.ad_paragraph{
+  font-size:26.5548px;
+  text-shadow:rgba(0, 0, 0, 0.5) 1px 1px 1px;
+  word-break:break-word;
+  max-width:1056px;
+  margin-left:374.391px;
+  margin-right:374.406px;
+  line-height:43.6722px;
+}
+
+.ad_button button{
+  font-size: calc(1em + .25vw);
+  padding: .75em 1em;
+  font-family: Mija;
+  background-color: rgb(255, 255, 255);
+  color:rgb(38, 125, 204);
+  font-size:26.929px;
+  font-weight:700;
+  border-bottom-color:rgb(255, 255, 255);
+  border-bottom-left-radius:11px;
+  border-bottom-right-radius:11px;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-image-outset:0;
+  border-image-repeat:stretch;
+  border-image-slice:100%;
+  border-image-source:none;
+  border-image-width:1;
+  border-left-color:rgb(255, 255, 255);
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:rgb(255, 255, 255);
+  border-right-style:solid;
+  border-right-width:1px;
+  border-top-color:rgb(255, 255, 255);
+  border-top-left-radius:11px;
+  border-top-right-radius:11px;
+  border-top-style:solid;
+  border-top-width:1px;
+}
