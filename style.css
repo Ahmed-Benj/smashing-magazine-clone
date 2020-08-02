@@ -397,3 +397,38 @@ margin: 10px;
 .ad_image a img{
   max-width:920px;
 }
+
+.person_of_the_week_container{
+  display: flex;
+}
+
+.person_of_the_week_figure a img{
+  margin: 25px;
+  border: 6px solid white;
+  border-radius: 15%;
+  transform: scale(0.9) rotateZ(calc(-15 * 1deg));
+  transition: transform .2s ease-out;
+}
+
+.person_of_the_week_content{
+  
+}
+
+.person_of_the_week_content h3{
+  font-family:Elena;
+  font-feature-settings:"onum";
+  font-size:19.9161px;
+  letter-spacing:2px;
+  line-height:47.3447px;
+  color:rgb(102, 102, 102);
+  font-weight: 400;
+  margin:25px;
+}
+
+.person_of_the_week_content p{
+  font-feature-settings:"onum";
+  font-size:22.129px;
+  height:185px;
+  line-height:37.0335px;
+  margin:25px;
+}
