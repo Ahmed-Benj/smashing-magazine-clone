@@ -292,8 +292,9 @@ header{
 
 .first-section-content{
   display: inline-block;
-  width: 33%;
-  height: 500px;
+  width: 25%;
+  height: 400px;
+  margin: 85px 75px;
 }
 
 .first-section-content time{
@@ -336,6 +337,7 @@ margin: 10px;
 .ad{
   height: 1001px;
   background-image: linear-gradient(rgb(27, 113, 187) 45%, rgb(67, 153, 217) 100%);
+  height: 1150px;
 }
 
 .ad_container{
@@ -356,6 +358,7 @@ margin: 10px;
 .ad_date{
   font-size:17.7032px;
   font-weight:700;
+  letter-spacing: 2px;
 }
 
 .ad_header h2 a{
@@ -387,24 +390,10 @@ margin: 10px;
   font-size:26.929px;
   font-weight:700;
   border-bottom-color:rgb(255, 255, 255);
-  border-bottom-left-radius:11px;
-  border-bottom-right-radius:11px;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  border-image-outset:0;
-  border-image-repeat:stretch;
-  border-image-slice:100%;
-  border-image-source:none;
-  border-image-width:1;
-  border-left-color:rgb(255, 255, 255);
-  border-left-style:solid;
-  border-left-width:1px;
-  border-right-color:rgb(255, 255, 255);
-  border-right-style:solid;
-  border-right-width:1px;
-  border-top-color:rgb(255, 255, 255);
-  border-top-left-radius:11px;
-  border-top-right-radius:11px;
-  border-top-style:solid;
-  border-top-width:1px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 11px;
+}
+
+.ad_image a img{
+  max-width:920px;
 }
