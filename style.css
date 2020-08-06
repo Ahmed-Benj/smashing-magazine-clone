@@ -503,3 +503,60 @@ margin: 10px;
   line-height:37.0335px;
   margin: 15px;
 }
+
+.featured-smashing-book{
+  background-color: #d33a2c;
+  height:409.703px;
+}
+
+.featured-smashing-book-container{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  width: 1080px;
+  margin-left: 75px;
+}
+
+.featured-smashing-book-container h3{
+color: rgb(255, 255, 255);
+display: block;
+font-family: Elena;
+font-feature-settings: "onum";
+font-size: 17.7032px;
+font-weight: 700;
+margin: 25px;
+}
+
+.featured-smashing-book-container h2{
+color:rgb(255, 255, 255);
+display:block;
+font-family:Mija;
+font-feature-settings:"onum";
+font-size:47.3327px;
+font-weight:700;
+margin: 25px;
+}
+
+.featured-smashing-book-container p{
+color:rgb(255, 255, 255);
+display:block;
+font-family:Elena;
+font-feature-settings:"onum";
+font-size:22.129px;
+margin: 25px;
+}
+
+.featured-smashing-book-button button{
+  padding: .75em 1em;
+  font-family: Mija;
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 125, 204);
+  font-size: 26.929px;
+  font-weight: 700;
+  border-bottom-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 11px;
+  width: 414px;
+  height: 72px;
+  margin: 25px;
+}
