@@ -29,11 +29,6 @@ gradient
 
 ## Authors
 
-👤 **Peter Isiko**
-
-- Github (https://github.com/petersteph88)
-- Linkedin (https://www.linkedin.com/in/peter-isiko-8040bb1a3/)
-
 👤 **Ahmed Ben Jmii**
 
 * Ahmed (https://github.com/Ahmed-Benj)
