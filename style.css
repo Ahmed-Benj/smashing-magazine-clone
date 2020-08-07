@@ -560,3 +560,65 @@ margin: 25px;
   height: 72px;
   margin: 25px;
 }
+
+.featured-guides-container{
+  display: flex;
+  align-items: center;
+}
+
+.featured-guide{
+  width: 80%;
+  margin: 0 auto;
+  box-shadow:rgba(0, 0, 0, 0.12) 0px 2px 6px 0px;
+  height: 573px;
+  width: 550px;
+  margin: 100px;
+  padding: 25px;
+  border-radius: 11px;
+}
+
+.featured-guide h5{
+  font-family:Elena;
+  font-feature-settings:"onum";
+  font-size:16.641px;
+  font-weight:400;
+  height:19px;
+  letter-spacing:2px;
+  line-height:19.9692px;
+  margin: 25px 0;
+}
+
+.featured-guide-title{
+  color:rgb(25, 169, 114);
+  cursor:pointer;
+  display:inline;
+  font-family:Mija;
+  font-feature-settings:"onum";
+  font-size:47.5458px;
+  font-weight:700;
+  line-height:57.0549px;
+  margin: 25px 0;
+}
+
+.featured-guide p{
+  font-family:Elena;
+  font-feature-settings:"onum";
+  font-size:22.129px;
+  height:185px;
+  line-height:37.0335px;
+  margin: 25px 0;
+}
+
+.featured-guide button{
+  padding: .75em 1em;
+  font-family: Mija;
+  background-color: rgb(25, 169, 114);
+  color: rgb(255, 255, 255);
+  font-size: 26.929px;
+  font-weight: 700;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 11px;
+  width: 95%;
+  height: 100px;
+  margin: 25px 0;
+}
