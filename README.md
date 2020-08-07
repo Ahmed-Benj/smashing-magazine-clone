@@ -13,7 +13,7 @@ flex
 background images
 gradient
 
-![screenshot](.images\webpage_screenshot.png)
+![screenshot](./images/webpage_screenshot.png)
 
 ## Built With
 
