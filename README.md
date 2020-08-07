@@ -5,6 +5,8 @@
 > This project consists on using of plain HTML and CSS to create a website.
 > A reproduction of "SMASHING MAGAZINE" website was used to complete the project (https://www.smashingmagazine.com/)
 
+> This project was done with screen resolution of (1920 x 1080), zoom at 100%
+
 #### Techniques used for positioning elements : 
 
 float
