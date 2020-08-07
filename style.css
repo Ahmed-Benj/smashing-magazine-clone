@@ -174,7 +174,7 @@ header{
   display: flex;
   position: relative;
   /* flex-wrap: wrap; */
-  height: 960.063px;
+  /* height: 960.063px; */
 }
 
 .featured-articles-heading1{
@@ -211,7 +211,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 65%;
+  height: 697.063px;
   align-items: center;
 }
 
@@ -450,7 +450,7 @@ margin: 10px;
 }
 
 .featured-article-22{
-  margin: 40px;
+  margin: 40px 40px 0 100px;
   padding: 40px;
 }
 
@@ -621,4 +621,90 @@ margin: 25px;
   width: 95%;
   height: 100px;
   margin: 25px 0;
+}
+
+.footer{
+  height: 600px;
+  background-color:rgb(211, 58, 44);
+}
+
+.footer-container{
+text-align: center;
+}
+
+.footer-container span{
+  color:rgb(255, 255, 255);
+  display:block;
+  font-family:Elena;
+  font-feature-settings:"onum";
+  font-size:15.9329px;
+  font-weight:700;
+  height:43px;
+  letter-spacing:1px;
+  line-height:43.3615px;
+  padding: 50px;
+}
+
+.footer-main-ul{
+  display: flex;
+  color:rgb(255, 255, 255);
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 25px;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-main-ul li {
+  margin: 10px 10px;
+  height: 45px;
+}
+
+.footer-main-ul li a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  font-family:Elena;
+  font-feature-settings:"onum";
+  font-size:26.8542px;
+  height:auto;
+  line-height:44.1213px;
+}
+
+
+.footer-container p{
+  color:rgb(255, 255, 255);
+  display:block;
+  font-family:Elena;
+  font-feature-settings:"onum";
+  font-size:17.7032px;
+  font-style:italic;
+  /* height:30px; */
+  line-height:30.3948px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.footer-second-ul{
+  display: flex;
+  flex-wrap: wrap;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+  padding: 30px;
+  width: 800px;
+  justify-content: center;
+}
+
+.footer-second-ul li {
+  margin: 10px 10px;
+  height: 18px;
+  width: 165px;
+}
+
+.footer-second-ul li a{
+  color:rgb(255, 255, 255);
+  font-family:Elena;
+  font-feature-settings:"onum";
+  font-size:17.7032px;
+  height:auto;
+  line-height:30.3948px;
 }
